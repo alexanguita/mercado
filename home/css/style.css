@@ -1,0 +1,135 @@
+
+body{
+    background: url(../../market/background/wheat.png);
+    background-size: 20%;
+    background-attachment: fixed;
+
+}
+.container {
+    text-align: center;
+}
+.header{
+    text-align: center;
+    display: inline;
+    margin: auto;
+    padding: 0;
+    justify-items: center;
+    position: relative;
+    
+    width: 100vw;
+    height: 100vh;
+}
+.header--text{
+    background-color: #638c8075;
+    border-left: 5vw double #08313a;
+    border-right: 5vw double #08313a;
+    border-radius: 200px;
+}
+.header--title {
+    letter-spacing: 40px;
+    color: #08313a;
+    font-family: Cocogoose , Geneva, Tahoma, sans-serif;
+    font-size: 12vh;
+    text-shadow:5px 5px 1px #273129f5;
+    transition: font-size 2s;
+}
+
+.header--title:hover{
+    font-size: 14vh;
+
+}
+.subtitle {
+    position: relative;
+    padding:10px;
+    margin: auto;
+    width: 33vw;
+    font-size: 3.4vh;
+    color: #107869;
+}   
+.text {
+    font-family: Cocogoose , Geneva, Tahoma, sans-serif;
+    display: inline;
+    text-shadow: 3px 3px 3px #0e110fb6;
+    width: 33vw;
+    word-spacing: 10px;
+}
+
+.marketplace{
+    position: relative;
+    top: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.marketplace--header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.marketplace--title{
+    font-family: Cocogoose Pro SemiLight, Geneva, Tahoma, sans-serif;
+    background-color: #96ad90d2;
+    color: #08313a;
+    
+    
+}
+.valerio--link-title:link, .oasis--link-title:link, .ak47--link-title:link{
+    color: #18613f;
+    text-decoration: none;
+}
+.valerio--link-title:visited, .oasis--link-title:visited, .ak47--link-title:visited{
+    color: #10422a;
+    text-decoration: none;
+}
+.valerio--link-title:active, .oasis--link-title:active, .ak47--link-title:active{
+    color: #18613f77;
+    text-decoration: none;
+}
+.valerio--link-title:hover, .oasis--link-title:hover, .ak47--link-title:hover{
+    color: #83d0acb6;
+    text-decoration: none;
+}
+.logo{
+    display: inlne;
+    width: 10%;
+    height: auto;
+    border: 10px solid #ffffff9c;
+    border-radius: 30px;
+
+}
+.logo:hover{
+    outline: 10px solid#ffffff9c; 
+    -moz-outline-radius: 40px;
+
+}
+.picture{
+    transition: width, height 5s;
+    outline: 10px solid #96ad90;
+    -moz-outline-radius: 30px;
+    width:30% ;height:auto;
+    margin:60px;
+    position: relative;
+}
+.picture:hover{
+
+    width: 31%;
+    height: auto;
+}
+
+.footer{
+    margin: auto;
+    position: relative;
+    top: 360px;
+    width: 70vw;
+    font-family: Cocogoose;
+    
+}
+.footer--fieldset{
+    color:#96ad90d2 ;
+    
+}
+
