@@ -36,7 +36,6 @@ body{
 
 .header--title:hover{
     font-size: 14vh;
-
 }
 .subtitle {
     position: relative;
@@ -72,10 +71,11 @@ body{
 }
 .marketplace--title{
     font-family: Cocogoose Pro SemiLight, Geneva, Tahoma, sans-serif;
-    background-color: #96ad90d2;
-    color: #08313a;
     
     
+    
+    color: #96ad90d2;
+    font-size: vw;
 }
 .valerio--link-title:link, .oasis--link-title:link, .ak47--link-title:link{
     color: #18613f;
@@ -107,26 +107,25 @@ body{
 
 }
 .picture{
-    transition: width, height 5s;
+    transition: width 2s;
     outline: 10px solid #96ad90;
     -moz-outline-radius: 30px;
     width:30% ;height:auto;
     margin:60px;
     position: relative;
 }
-.picture:hover{
 
+.picture:hover{
     width: 31%;
     height: auto;
 }
 
-.footer{
+.footer-extra-class{
     margin: auto;
     position: relative;
     top: 360px;
     width: 70vw;
     font-family: Cocogoose;
-    
 }
 .footer--fieldset{
     color:#96ad90d2 ;
